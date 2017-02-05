@@ -1,1 +1,1 @@
-# alexa-demo
+# alexa-demo for Ludwigsburg NodeJS meetup

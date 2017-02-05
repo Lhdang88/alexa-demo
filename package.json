@@ -1,0 +1,43 @@
+{
+  "name": "alexa-demo",
+  "description": "Alexa skill demo for lubunode meetup",
+  "version": "1.0.0",
+  "license": "SEE LICENSE",
+  "author": "Hai Dang Le <lhdang.88@gmail.com>",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.7.0",
+    "npm": ">=3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lhdang88/alexa-demo.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  },
+  "devDependencies": {
+    "cz-conventional-kawaii": "^0.1.4"
+  },
+  "config": {
+    "cz-conventional-kawaii": {
+      "scopes": [
+        "resources",
+        "intents",
+        "update"
+      ],
+      "quick": true
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-kawaii"
+    }
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "demo"
+  ]
+}
