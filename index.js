@@ -7,7 +7,7 @@ const handlers = {
     'LaunchRequest': function () {
         this.emit('AMAZON.HelpIntent');
     },
-    'TellNewJoke': function (intent, session, response, more) {
+    'TellNewJoke': function () {
         this.emit('GetJoke');
     },
     'GetJoke': function () {
