@@ -11,7 +11,6 @@ const handlers = {
         this.emit('GetJoke');
     },
     'GetJoke': function () {
-        // Get a random space fact from the space facts list
         // Use this.t() to get corresponding language data
         let jokesArr = this.t('JOKES');
         let jokesIndex = Math.floor(Math.random() * jokesArr.length);
@@ -37,7 +36,6 @@ const handlers = {
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
-    alexa.APP_ID = undefined; //'amzn1.ask.skill.1f0923be-0151-49b0-9c6e-6b238f9c9bc3';
     // To enable string internationalization (i18n) features, set a resources object.
     alexa.resources = resources;
     alexa.registerHandlers(handlers);
