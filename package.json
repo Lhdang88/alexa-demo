@@ -27,7 +27,8 @@
       "scopes": [
         "resources",
         "intents",
-        "update"
+        "update",
+        "readme.md"
       ],
       "quick": true
     },
